@@ -19,7 +19,7 @@ elems_of_base = ["id", "name", "surname", "otchestvo", "crim_case", "status", "d
 
 new_data = ""
 
-while new_data != "end":
+while new_data.lower() != "end":
     name = ""
     surname = ""
     otchestvo = ""
@@ -31,15 +31,16 @@ while new_data != "end":
     for i in range (len(elems_of_base)-1):
         print("Enter " + elems_of_base[i+1] + " : ")
         new_data = input()
-        if new_data == "end":
+        if new_data.lower() == "end":
             break
         new_member[i+1] = new_data
-    if new_data == "end":
+    if new_data.lower() == "end":
         break
     data_base.append(new_member)
     id+=1
     print("Member " + new_member[1] + " was added to list\n")
     print("Type - end - to stop programm\n")
+
 
 print(elems_of_base)
 for z in range(len(data_base)):

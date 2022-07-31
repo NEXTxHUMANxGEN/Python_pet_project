@@ -41,6 +41,8 @@ while new_data != "end":
     print("Member " + new_member[1] + " was added to list\n")
     print("Type - end - to stop programm\n")
 
-print(data_base)
+print(elems_of_base)
+for z in range(len(data_base)):
+    print(data_base[z])
     
 

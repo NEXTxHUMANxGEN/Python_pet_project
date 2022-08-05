@@ -69,31 +69,75 @@ def print_base():
 #        print("Please, type right search info\n")
 
 
-def search_for_member():
-    index_of_plate = input("Choose category for search :\n1 = id; 2 = name; 3 = surname; 4 = otchestvo; 5 = case number; 6 = status = details\n")
-    flag
-    while flag != 1 or flag != 2:
-        call_for_search = int(input())
-        if call_for_search == str(call_for_search):
-            flag = 2
+
+def search_for_one_member():
+    while True:
+        index_of_plate = int(input("Choose category for search :\n1 = id; 2 = name; 3 = surname; 4 = otchestvo; 5 = case number; 6 = status = details\n"))
+        if (index_of_plate == 1):
+            id_tag = int(input("Type id for search : "))
+            for i in range(len(data_base)):
+                if data_base[i][0] == id_tag:
+                    print(data_base[i])
+                    break
             break
-        elif call_for_search == int(call_for_search):
-            flag = 1
+        elif ((index_of_plate > 1) and (index_of_plate < 6)):
+            info_for_search = input("Type info for search : ")
+            for i in range(len(data_base)):
+                if data_base[i][index_of_plate-1] == info_for_search:
+                    print(data_base[i])
             break
         else:
-            print("Please, type right search info\n")
-    if flag == 1:
-        for i in range(len(data_base)):
-            if call_for_search == data_base[i][index_of_plate-1]:
-                print("This is yout result :")
-                print(data_base[y])        
-                break
-    elif flag == 2:
-        for i in range(len(data_base)):
-            if call_for_search in data_base[i][index_of_plate-1]:
-                print("This is yout result :")
-                print(data_base[y])        
-                break
+            print("Please, type choose existing category")
+            continue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# def search_for_member():
+#     index_of_plate = input("Choose category for search :\n1 = id; 2 = name; 3 = surname; 4 = otchestvo; 5 = case number; 6 = status = details\n")
+#     flag
+#     while flag != 1 or flag != 2:
+#         call_for_search = int(input())
+#         if call_for_search == str(call_for_search):
+#             flag = 2
+#             break
+#         elif call_for_search == int(call_for_search):
+#             flag = 1
+#             break
+#         else:
+#             print("Please, type right search info\n")
+#     if flag == 1:
+#         for i in range(len(data_base)):
+#             if call_for_search == data_base[i][index_of_plate-1]:
+#                 print("This is yout result :")
+#                 print(data_base[y])        
+#                 break
+#     elif flag == 2:
+#         for i in range(len(data_base)):
+#             if call_for_search in data_base[i][index_of_plate-1]:
+#                 print("This is yout result :")
+#                 print(data_base[y])        
+#                 break
 
 
 #Вписываем строку - ищем в выбранной категории совпадение (либо везде), выводим только ту строку, где встречается совпадение

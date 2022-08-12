@@ -4,7 +4,7 @@ id = 0
 
 data_base = []
 
-save_file_adress = "data_base_info.txt"
+save_file_adress = "../terminal_try_first/main_scripts/data_base_info.txt"
 
 
 

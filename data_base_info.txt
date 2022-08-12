@@ -1,2 +1,6 @@
-1, , , , , , , 
-2, , , , , , , 
+0, Misha, Malafeev, Aleksandrovich, 420, user, try, 
+0, Polina, Mishkina, Gennadievna, 420, wife, beauty, 
+1, 1, 2, 3, 4, 5, 6, 
+0, Misha, Malafeev, Alkes, 420, victim, rited, 
+0, Misha, Malafeev, Aleks, 420, victim, tired, 
+1, Polya, Mishkina, Gen, 420, victim, tired too, 

@@ -11,7 +11,8 @@ print(count_lines)
 
 with open(data_form.save_file_adress, 'r') as base_file:
     for i in range(count_lines):
-        output.append(list(base_file.readline().split(', \n')))
+        output.append(list(base_file.readline().split(', ')))
+        output[i].remove("\n")
 
 for i in output:
     print(i)

@@ -1,6 +1,1 @@
-0, Polina, Mishkina, Gennadievna, 419, criminal, killer, 
-0, Polina, Mishkina, Gennadievna, 419, criminal, killer, 
-0, Polina, Mishkina, Gennadievna, 419, criminal, killer, 
-0, Polina, Mishkina, Gennadievna, 419, criminal, killer, 
-0, Misha, Malafeev, Aleks, 419, vicrtim, dead, 
-1, Polya, Mishkina, Gen, 419, criminal, killer, 
+0, MIsha, Malafeev, Aleks, 420, victim, tired again and again, 

@@ -3,7 +3,7 @@ from data_form import *
 
 
 def base_save_in_file():
-    base_file = open(save_file_adress, 'a')
+    base_file = open(save_file_adress, 'w')
     for i in range(len(data_base)):
         for z in range(len(data_base[i])):
             base_file.write(str(data_base[i][z]) + ", ")

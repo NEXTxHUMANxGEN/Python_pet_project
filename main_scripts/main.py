@@ -7,6 +7,7 @@ import base_save_del
 while True:
     choice = int(input("Choose the operation to do:\n0)end programm\n1)add new members to base;\n2)search for data in base;\n3)print base;\n4)delete all base;\n"))
     if choice ==0:
+        print("Programm has been closed\n")
         break
     elif choice == 1:
         base_init.add_new_members()

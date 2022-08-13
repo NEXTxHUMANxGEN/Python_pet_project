@@ -1,2 +1,1 @@
-0, MIsha, Malafeev, Aleks, 420, victim, tired again and again, 
-0, Polya, Mishkina, Gen, 420, victim, tired to to, 
+id, name, surname, otchestvo, crim_case, status, details, 0, 0, 0, 0, 0, 0, 0, 

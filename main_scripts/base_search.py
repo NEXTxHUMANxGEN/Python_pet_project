@@ -1,6 +1,5 @@
-from data_form import *
 
-def search_for_few_member():
+def search_for_few_member(data_base):
     while True:
         index_of_plate = int(input("Choose category for search :\n1 = id; 2 = name; 3 = surname; 4 = otchestvo; 5 = case number; 6 = status; 7 = details\n"))
         if (index_of_plate == 1):

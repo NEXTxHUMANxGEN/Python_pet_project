@@ -1,6 +1,5 @@
-from data_form import save_file_adress
-from data_form import elems_of_base
 
+from data_form import *
 
 def base_save_in_file(data_base):
     base_file = open(save_file_adress, 'w')

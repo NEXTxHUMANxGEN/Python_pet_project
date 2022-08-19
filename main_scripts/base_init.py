@@ -1,15 +1,18 @@
+from random import randint
 from data_form import elems_of_base
 from data_form import save_file_adress
 
 
 def init_base():
-    save_file = open(save_file_adress, "w")
+    save_file = open(save_file_adress, 'w')
     save_file.close()
 
 def add_new_members(data_base):
-    id = int(data_base[-1][0])+1
+    global id
+    # id = randint(1, 999999)
     new_data = ""
     while new_data.lower() != "end":
+        id = randint(1, 999999)
         name = ""
         surname = ""
         otchestvo = ""

@@ -1,4 +1,4 @@
-from data_form import *
+from data_form import overwrite_base
 
 def print_base(data_base):
     overwrite_base()

@@ -1,8 +1,0 @@
-id, name, surname, otchestvo, crim_case, status, details, 
-0, 0, 0, 0, 0, 0, 0, 
-0, Ьшырф, Malafeev, Aleks, 420, student, tired, 
-1, Mihail, Malafeev, Aleks, 213, victim, tired to, 
-2, asda, sd, asd, asd, as, da, 
-2, sd, as, d, asd, a, sd, 
-2, asd, as, da, sd, as, da, 
-3, sdfsdfs, dfs, dfs, df, s, df, 
